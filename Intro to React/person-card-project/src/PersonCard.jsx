@@ -13,6 +13,7 @@ function PersonCard(props) {
       <p>Hair Color: {props.hairColor}</p>
       <button onClick={ageIncrement}> Birthday Button for {props.firstName} {props.lastName}</button>
     </div>
+    
   )
 
 }
