@@ -1,5 +1,5 @@
 import React,{useState} from "react"
-function UserForm(props) {
+function UserForm() {
 
     const [firstname, setFirstName] = useState('')
     const [lastname, setLastName] = useState('')
